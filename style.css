@@ -1,0 +1,220 @@
+/* Import del font da Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+html {
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 90%;
+}
+
+
+h2, h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Stile per la barra di navigazione */
+nav {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Stile per gli elementi della barra di navigazione */
+nav div {
+    margin: 0 2%;
+    font-size: larger;
+    position: relative;
+}
+
+/* Stile per il cambio colore al passaggio del mouse sugli elementi della barra di navigazione */
+header nav div:hover {
+    color: aqua;
+}
+
+/* Stile per la sezione "centro" */
+.centro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5%;
+}
+
+/* Stile per la parte sinistra della sezione "centro" */
+.centro .sinistra {
+    width: 35%;
+    color: grey;
+}
+
+
+.centro .destra {
+    flex: 1;
+    text-align: right;
+}
+
+/* Stile per i pulsanti */
+button {
+    background-color: #00d2b5;
+    color: aliceblue;
+    border-radius: 15px;
+    text-align: center;
+    padding: 3%;
+    border-color: white;
+    font-size: 16px;
+}
+.centroCentroCentro {
+    background-color: rgb(245, 242, 242);
+    text-align: center;
+}
+
+
+.centroCentroCentro h1 {
+    text-align: center;
+}
+
+
+.centroCentro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.centroCentro div {
+    border: 1px solid rgb(252, 247, 247);
+    width: 20%;
+    margin: 2%;
+    padding: 1%;
+    background-color: rgb(255, 255, 255);
+}
+
+.centroCentro a {
+    color: rgb(25, 163, 119);
+}
+
+
+.centroCentrale {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 15%;
+}
+
+
+.centroCentrale div {
+    width: 35%;
+    display: inline-table;
+}
+
+.terza .terzaBAR {
+    border: 2px solid rgb(238, 230, 230);
+    padding: 10px;
+    width: fit-content;
+}
+
+
+.terzaBAR {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .image img {
+    float: left; 
+    margin-right: 10px;
+    width:30%; 
+    padding-left: 10%;
+}
+
+
+ .box2 {
+    float: right;
+    width:40%;
+    padding-right: 10%;
+}
+.footer .about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 20px;
+}
+
+
+.footer h1 {
+    font-size: 2rem;
+    color: #131212;
+    margin: 0;
+}
+
+
+div.footer2 {
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    text-align: left;
+    margin-top: 5%;
+}
+
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+   
+}
+
+
+.footer2 form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.footer2 .form-group {
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: left;
+}
+
+
+.footer2 label {
+    font-weight: bold;
+    display: block;
+}
+
+.footer2 input[type="text"],
+.footer2 input[type="email"],
+.footer2 textarea {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.footer2 button {
+    background-color: #00d2b5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.footer2 button:hover {
+    background-color: #009c8e;
+}
